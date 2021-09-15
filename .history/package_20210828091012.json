@@ -1,0 +1,14 @@
+{
+  "name": "devmobile",
+  "version": "1.0.0",
+  "description": "MERN shopping cart app",
+  "main": "server.js",
+  "scripts": {
+    "test": "node backend/server"
+  },
+  "author": "DevMobile",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

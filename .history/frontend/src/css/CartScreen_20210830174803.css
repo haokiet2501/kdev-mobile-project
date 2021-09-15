@@ -1,0 +1,4 @@
+.cart_row {
+    display: grid;
+    grid-template-columns: 50% 30% 30%;
+}

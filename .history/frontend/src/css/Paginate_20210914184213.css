@@ -1,0 +1,12 @@
+.paginate_main ul {
+    display: flex;
+    border: 1px solid #e0e0e0;
+    padding: 10px 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.paginate_main ul li {
+    list-style: none;
+    margin: 0 5px;
+}

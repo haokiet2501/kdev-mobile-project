@@ -1,0 +1,22 @@
+.message_back {
+    color: #333333;
+}
+
+.message_back:hover {
+    color: #39A2DB;
+}
+
+.cart_row {
+    display: grid;
+    grid-template-columns: 50% 25% 25%;
+}
+
+.cart_row-title {
+    margin-top: 5px;
+    grid-template-columns: 20% 20;
+}
+
+.image_cart {
+    width: 80px;
+    height: 80px;
+}

@@ -1,0 +1,6 @@
+.img_caroucel {
+    width: 250px;
+    height: 250px;
+    display: grid;
+    place-items: display: block;margin: 0 auto;;
+}

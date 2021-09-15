@@ -1,0 +1,14 @@
+button {
+    width: 55px;
+    height: 30px;
+    border: none;
+    background-color: #ffee32;
+    border-radius: 8px; 
+}
+
+.product_main {
+    mt
+    display: grid;
+    grid-template-columns: 40% 30% 30%;
+    grid-column-gap: 10px;
+}

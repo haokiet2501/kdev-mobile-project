@@ -1,0 +1,20 @@
+.checkout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkout_item {
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0 15px;
+    color: #767676;
+}
+
+.checkout_login {
+    color: #333;
+}
+
+.checkout_item:disabled {
+    cur
+}

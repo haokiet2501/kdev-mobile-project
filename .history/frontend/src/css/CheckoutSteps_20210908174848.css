@@ -1,0 +1,16 @@
+.checkout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkout_item {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.checkout_login {
+    margin: 0 15px;
+    color: black;
+    co
+}

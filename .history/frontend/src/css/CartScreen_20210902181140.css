@@ -1,0 +1,9 @@
+.message_back {
+    text-align: center;
+    color: #333333;
+}
+
+.cart_row {
+    display: grid;
+    grid-template-columns: 50% 25% 25%;
+}

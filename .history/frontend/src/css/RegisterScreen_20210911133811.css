@@ -1,0 +1,157 @@
+main {
+  min-height: 115vh;
+}
+
+.register {
+  margin-top: 87px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #e0e0e0;
+  border-radius: 10px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.6);
+}
+
+.register h1 {
+  margin-top: 15px;
+  text-align: center;
+  padding: 0 0 25px 0;
+  color: rgba(0, 0, 0, 0.8);
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.register form {
+  padding: 0 40px;
+  box-sizing: border-box;
+}
+
+.register .register_field {
+  position: relative;
+  border-bottom: 2px solid #adadad;
+  margin: 30px 0;
+}
+
+.register_field input {
+  width: 100%;
+  padding: 0 5px;
+  height: 40px;
+  font-size: 16px;
+  border: none;
+  background: none;
+  outline: none;
+}
+
+.register_field label {
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  color: #adadad;
+  transform: translateY(-50%);
+  font-size: 16px;
+  pointer-events: none;
+  transition: 0.5s;
+}
+
+.register_field span::before {
+  content: "";
+  position: absolute;
+  top: 40px;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background: #2691d9;
+  transition: 0.5s;
+}
+
+.register_field input:focus ~ label,
+.register_field input:valid ~ label {
+  top: -5px;
+  color: #2691d9;
+}
+
+.register_field input:focus ~ span::before,
+.register_field input:valid ~ span::before {
+  width: 100%;
+}
+
+.btn_register {
+  width: 100%;
+  padding: 10px;
+  border-radius: 25px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.8);
+  background-color: #2691d9;
+  transition: all 0.5s;
+}
+
+.btn_register:hover {
+  color: #fff;
+  transition: all 0.5s;
+}
+
+.register_signup {
+  margin: 25px 0;
+  color: #adadad;
+}
+
+.register_link {
+  margin-left: 5px;
+  color: #2691d9;
+}
+
+.register_link:hover {
+  text-decoration: underline;
+}
+
+.container_check {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.container_check input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+
+.container_check:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container_check input:checked ~ .checkmark {
+  background-color: #2196f3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}

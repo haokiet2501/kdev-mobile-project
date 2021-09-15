@@ -1,0 +1,20 @@
+.search-input {
+    padding: 0.5rem;
+    border: 1px solid #e0e0e0;
+}
+
+.search-input:focus {
+    outline: none;
+}
+
+.search-btn {
+    di
+    padding: 0.56rem 1rem;
+    outline: none;
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 14px;
+    background-color: #39A2DB;
+}

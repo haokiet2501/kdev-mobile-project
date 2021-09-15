@@ -1,0 +1,5 @@
+.placeorder_col {
+    margin-top: 15xp;
+    display: grid;
+    grid-template-columns: 60% 40%;
+}

@@ -1,0 +1,4 @@
+.profile_col {
+    display: grid;
+    grid-template-columns: 40% 70%;
+}

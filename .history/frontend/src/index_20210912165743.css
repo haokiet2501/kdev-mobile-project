@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+main {
+  margin-top: 85px;
+  /* min-height: 150vh; */
+  padding: 0 100px;
+  ma
+}
+
+.rating_reviews {
+  letter-spacing: 2px;
+}

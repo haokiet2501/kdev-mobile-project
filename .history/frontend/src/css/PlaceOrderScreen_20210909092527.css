@@ -1,0 +1,23 @@
+.placeorder_col {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+.placeorder_main {
+    padding: 10px 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.placeorder_main h2 {
+    color: rgba(0, 0, 0, 0.8);
+    margin-bottom: 10px;
+}
+
+.placeorder_main p strong{
+    margin-right: 5px;
+}
+
+.placeorder_main p {
+    color: #333;
+}

@@ -1,0 +1,11 @@
+.card_product {
+    display: grid;
+    gri
+}
+
+
+.img_card {
+    width: 209px;
+    height: 209px;
+    object-fit: cover;
+}

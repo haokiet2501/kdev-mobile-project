@@ -1,0 +1,77 @@
+.nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.6s;
+    padding: 15px 100px;
+    z-index: 100000;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
+    background-color: #FFFFFF;
+}
+
+.nav .logo {
+    position: relative;
+    font-weight: 800;
+    color: #261C2C;
+    text-decoration: none;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: 0.6s;
+}
+
+.nav .logo:hover {
+    color: #39A2DB;
+}
+
+.nav ul{
+    float: right;
+}
+
+.nav ul li {
+    position: relative;
+    list-style: none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.nav ul li a {
+    display: block;
+    margin: 0 15px;
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: 700;
+}
+
+.nav ul li:hover a{
+    color: #39A2DB;
+}
+
+.nav ul li:last-child a{
+    background-color: #39A2DB;
+    padding: 5px 10px;
+}
+
+.nav ul ul {
+    position: absolute;
+    top: 30px;
+    display: none;
+
+}
+
+.nav ul li:hover > ul{
+    display: block;
+}
+
+.nav ul ul li {
+    width: 100px;
+    background-color: red;
+    float: none;
+    display: list-item;
+    position: relative;
+    cursor: pointer;
+}
+

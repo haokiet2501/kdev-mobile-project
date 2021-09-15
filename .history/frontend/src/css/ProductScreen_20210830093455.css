@@ -1,0 +1,126 @@
+.button {
+    width: 55px;
+    height: 30px;
+    border: none;
+    background-color: #ffee32;
+    border-radius: 8px; 
+    cursor: pointer;
+}
+
+.product_main {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 40% 30% 30%;
+    grid-column-gap: 10px;
+    color: #333333;
+}
+
+.product_main .img_product-detail {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+}
+
+.product_main .text_product-detail {
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.product_main .border_product-detail {
+    width: 100%;
+    border: solid;
+    border-width: 0 0 1px 0;
+    border-color: #dbdbdb;
+    margin-bottom: 10px;
+}
+
+.product_main .rating_product-detail {
+    margin-bottom: 10px;
+    color: #767676;
+    font-weight: 500;
+}
+
+.product_main .price_product-detail {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    color: rgba(0, , blue, alpha);
+}
+
+.product_main .descript_product-detail {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.product_main .border_cart {
+    padding: 10px 15px;
+    border-radius: 2px;
+    border-style: solid;
+    border-color: #e0e0e0;
+    border-width: 1px;
+    height: 15rem;
+}
+
+.border_underline {
+    border-style: solid;
+    border-color: #e0e0e0;
+    border-width: 0 0 1px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.border_title, .border_price, .border_status {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.border_title1 {
+    font-size: 18px;
+    font-weight: 500;
+    float: left;
+    margin-right: 78px;
+}
+
+.border_title {
+    float: left;
+    margin-right: 100px;
+}
+
+.button_cart {
+    margin-top: 50px;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn {
+    padding: 15px 40px;
+    border-radius: 4px;
+    border: none;
+    background-color: #f8961e;
+    color: #ffffff;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.border_qty {
+    font-size: 18px;
+    font-weight: 500;
+    display: inline;
+    margin-right: 89px;
+}
+
+.border_select {
+    display: inline-block;
+}
+
+.select-box {
+    padding: 5px 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+}
+
+
+
+

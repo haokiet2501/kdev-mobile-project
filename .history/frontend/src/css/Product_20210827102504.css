@@ -1,0 +1,10 @@
+.card_product {
+    width: 240px;
+    height: ;
+}
+
+.img_card {
+    width: 209px;
+    height: 209px;
+    object-fit: cover;
+}

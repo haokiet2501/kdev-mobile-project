@@ -1,0 +1,15 @@
+.profile_col {
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+.profile {
+    margin-top: 87px;
+    position: absolute;
+    width: 400px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e0e0e0;
+    border-radius: 10px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.6);
+}

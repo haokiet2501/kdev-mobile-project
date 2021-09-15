@@ -1,0 +1,152 @@
+.order_col {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+.order_shipping {
+    padding: 0 0 15px 0;
+    border-bottom: 1px solid #e0e0e0;
+    width: 98%;
+}
+
+.order_shipping h2 {
+    color: rgba(0, 0, 0, 0.8);
+    margin-bottom: 10px;
+}
+
+.order_shipping p {
+    color: #333;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.order_payment {
+    margin-top: 15px;
+    padding: 0 0 15px 0;
+    border-bottom: 1px solid #e0e0e0;
+    width: 98%;
+}
+
+.order_payment h2 {
+    color: rgba(0, 0, 0, 0.8);
+    margin-bottom: 10px;
+}
+
+.order_payment p {
+    color: #333;
+    font-weight: 400;
+}
+
+.orderscreen_item {
+    display: grid;
+    grid-template-columns: 20% 40% 40%;
+    margin-bottom: 5px;
+}
+
+.orderscreen_item .orderscreen_item-image {
+    margin-left: 15px;
+    background-repeat: no-repeat;
+}
+
+.orderscreen_item .image_orderscreen {
+    width: 50px;
+    height: 50px;
+}
+
+.orderscreen_item .orderscreen_item-name {
+    margin-top: 10px;
+    color: #3f3f3f;
+}
+
+.orderscreen_item .orderscreen_item-name:hover {
+    text-decoration: underline;
+    color: #2691d9;
+}
+
+.orderscreen_item .orderscreen_item-qty {
+    margin-left: 15px;
+    color: #3f3f3f;
+    margin-top: 10px;
+}
+
+.orderscreen_now {
+    border: 1px solid #e0e0e0;
+    border-radius: 2px;
+}
+
+.orderscreen_now h2 {
+    color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.orderscreen_now .orderscreen_sale {
+    padding: 10px 0;
+    border-bottom: 1px solid #e0e0e0;
+    font-weight: 400;
+    color: #333;
+}
+
+.orderscreen_now .orderscreen_sale-message {
+    padding: 10px 0;
+    border-bottom: 1px solid #e0e0e0;
+
+}
+
+.orderscreen_now .orderscreen_sale .orderscreen_text-item {
+    margin-left: 15px;
+    margin-right: 70px;
+}
+
+.orderscreen_now .orderscreen_sale .orderscreen_text-one {
+    margin-left: 76px;
+}
+
+.orderscreen_now .orderscreen_sale .orderscreen_text-two {
+    margin-left: 76px;
+}
+
+.orderscreen_now .orderscreen_sale .orderscreen_text-three {
+    margin-left: 147px;
+}
+
+.orderscreen_now .orderscreen_sale .orderscreen_text-four {
+    margin-left: 146px;
+}
+
+.orderscreen_now .orderscreen_button {
+    text-align: center;
+}
+
+.orderscreen_now .btn-orderscreen {
+    width: 60%;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    font-weight: 500;
+    background-color: #ffc439;
+    margin-top: 15px;
+    transition: all 0.5s;
+    padding: 9px 0;
+    cursor: pointer;
+}
+
+.btn-orderscreen:hover {
+    background-color: rgb(238, 187, 70);
+}
+
+.logo_paypal {
+    width: 70px;
+    height: 15px;
+    background-position: center;
+    object-fit: contain;
+    background-size: cover;
+}
+
+.text_paypal {
+    font-size: 13px;
+    font-weight: 500;
+    color: #111;
+}

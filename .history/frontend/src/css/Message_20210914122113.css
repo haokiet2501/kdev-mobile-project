@@ -1,0 +1,21 @@
+.alert {
+    border: 1px solid #e0e0e0;
+    font-weight: 700;
+    padding: 10px 15px;
+    color: #FF2442;
+    border-left: 5px solid #FF2442;
+    border-radius: 2px;
+    background-color: #f8f8f8;
+    margin: 10px 0;
+}
+
+.alert:di {
+    border: 1px solid #e0e0e0;
+    font-weight: 700;
+    padding: 10px 15px;
+    color: #4AA96C;
+    border-left: 5px solid #13df57;
+    border-radius: 2px;
+    background-color: #f8f8f8;
+    margin: 10px 0;
+}

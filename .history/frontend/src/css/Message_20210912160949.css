@@ -1,0 +1,12 @@
+.alert {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e0e0e0;
+    font-weight: 700;
+    padding: 10px 15px;
+    color: #FF2442;
+    border-left: 5px solid #FF2442;
+    border-radius: 2px;
+    background-color: #f8f8f8;
+    margin-bottom: 10px;
+}

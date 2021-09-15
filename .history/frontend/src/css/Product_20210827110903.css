@@ -1,0 +1,14 @@
+.card_product {
+    width: 240px;
+    height: 460px;
+    border-color: #f1f1f1;
+    border-style: solid solid;
+    border-width: 1px 1px 1px 1px;
+    color: #333333;
+    
+}
+
+.img_card {
+    width: 209px;
+    height: 209px;
+}

@@ -1,0 +1,56 @@
+.placeorder_col {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+.placeorder_shipping {
+    padding: 0 0 15px 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.placeorder_shipping h2 {
+    color: rgba(0, 0, 0, 0.8);
+    margin-bottom: 10px;
+}
+
+.placeorder_shipping p {
+    color: #333;
+    font-weight: 400;
+}
+
+.placeorder_payment {
+    margin-top: 15px;
+    padding: 0 0 15px 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.placeorder_payment h2 {
+    color: rgba(0, 0, 0, 0.8);
+    margin-bottom: 10px;
+}
+
+.placeorder_payment p {
+    color: #333;
+    font-weight: 400;
+}
+
+.order_item {
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+}
+
+.order_item .order_item-image {
+    margin-left: 15px;
+    background-repeat: no-repeat;
+}
+
+.order_item .image_order {
+    width: 50px;
+    height: 50px;
+}
+
+.order_item .order_item-name {
+    justify-content: center;
+    color: #3f3f3f;
+}

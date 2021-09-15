@@ -1,0 +1,14 @@
+.placeorder_col {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+.placeorder_main h2 {
+    color: rgba(0, 0, 0, 0.8);
+    margin-bottom: 10px;
+}
+
+.placeorder_main p {
+    mr
+}

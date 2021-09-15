@@ -1,0 +1,75 @@
+.nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.6s;
+    padding: 15px 100px;
+    z-index: 100000;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
+    background-color: #FFFFFF;
+}
+
+.nav .logo {
+    position: relative;
+    font-weight: 800;
+    color: #261C2C;
+    text-decoration: none;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: 0.6s;
+}
+
+.nav .logo:hover {
+    color: #39A2DB;
+}
+
+.nav ul {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav ul li {
+    position: relative;
+    list-style: none;
+}
+
+.nav ul li a {
+    position: relative;
+    margin: 0 15px;
+    text-decoration: none;
+    color: #261C2C;
+    transition: 0.6s;
+    font-weight: 700;
+}
+
+.nav ul li:last-child a {
+    background-color: #39A2DB;
+    padding: 10px 16px;
+    border-radius: 8px;
+    font-weight: 700;
+}
+
+.nav ul li:hover a {
+    color: #39A2DB
+}
+
+.nav ul li:last-child a:hover {
+    color: #F0F0F0;
+}
+
+.dropdown {
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    text
+}
+
+.dropdown-select {
+    padding: 5px;
+}

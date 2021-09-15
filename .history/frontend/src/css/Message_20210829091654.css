@@ -1,0 +1,9 @@
+.alert {
+    border-style: solid;
+    border-width: 1px;
+    border-color: red;
+    font-weight: 700;
+    padding: 10px 15px;
+    color: red;
+    border-left: 2px solid red;
+}

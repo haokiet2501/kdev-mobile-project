@@ -1,0 +1,12 @@
+.card_product {
+    width: 240px;
+    height: 460px;
+    grid-template-columns: ;
+}
+
+.img_card {
+    width: 209px;
+    height: 209px;
+    background-size: cover;
+    background-position: center;
+}

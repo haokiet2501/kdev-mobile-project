@@ -1,0 +1,9 @@
+.checkout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkout_login {
+    margin: 0 20px;
+}

@@ -1,0 +1,22 @@
+button {
+    width: 55px;
+    height: 30px;
+    border: none;
+    background-color: #ffee32;
+    border-radius: 8px; 
+}
+
+.product_main {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 40% 30% 30%;
+    grid-column-gap: 10px;
+}
+
+.product_main .img_product-detail {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+}
+
+.product_main .text
