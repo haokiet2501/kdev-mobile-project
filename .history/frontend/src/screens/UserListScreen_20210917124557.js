@@ -4,6 +4,7 @@ import "../css/ProfileScreen.css";
 import { useDispatch, useSelector } from "react-redux";
 import Message from "../components/Message";
 import Loader from "../components/Loader";
+import Paginate from "../components/Paginate";
 import { listUsers, deleteUser } from "../actions/userActions";
 
 const UserListScreen = ({ history, match }) => {
@@ -12,7 +13,7 @@ const UserListScreen = ({ history, match }) => {
   const dispatch = useDispatch();
 
   const userList = useSelector((state) => state.userList);
-  const { loading, error, users } = userList;
+  const { loading, error, users, page, pages } = userList;
 
   const userLogin = useSelector((state) => state.userLogin);
   const { userInfo } = userLogin;
@@ -22,11 +23,11 @@ const UserListScreen = ({ history, match }) => {
 
   useEffect(() => {
     if (userInfo && userInfo.isAdmin) {
-      dispatch(listUsers());
-    } else {
       history.push("/login");
+    } else {
+      dispatch(listUsers('', pageNumber));
     }
-  }, [dispatch, history, successDelete, userInfo]);
+  }, [dispatch, history, successDelete, userInfo, pageNumber]);
 
   const deleteHandler = (id) => {
     if (window.confirm("Bạn chắc chắn chứ?")) {
@@ -99,6 +100,7 @@ const UserListScreen = ({ history, match }) => {
               ))}
             </tbody>
           </table>
+          <Paginate pages={pages} page={page} isAdmin={true} />
         </>
       )}
     </>

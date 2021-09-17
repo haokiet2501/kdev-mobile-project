@@ -4,6 +4,7 @@ import "../css/ProfileScreen.css";
 import { useDispatch, useSelector } from "react-redux";
 import Message from "../components/Message";
 import Loader from "../components/Loader";
+import 
 import { listUsers, deleteUser } from "../actions/userActions";
 
 const UserListScreen = ({ history, match }) => {
@@ -22,7 +23,7 @@ const UserListScreen = ({ history, match }) => {
 
   useEffect(() => {
     if (userInfo && userInfo.isAdmin) {
-      dispatch(listUsers());
+      dispatch(listUsers("", pageNumber));
     } else {
       history.push("/login");
     }
@@ -99,6 +100,7 @@ const UserListScreen = ({ history, match }) => {
               ))}
             </tbody>
           </table>
+          <Paginate pages={pages} page={page} isAdmin={true} />
         </>
       )}
     </>

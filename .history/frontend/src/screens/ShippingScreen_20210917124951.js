@@ -65,7 +65,6 @@ const ShippingScreen = ({ history }) => {
               type="text"
               value={country}
               onChange={(e) => setCountry(e.target.value)}
-              required
             />
             <span></span>
             <label>Quốc gia</label>

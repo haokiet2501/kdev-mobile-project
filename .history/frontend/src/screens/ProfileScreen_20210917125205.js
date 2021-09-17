@@ -103,7 +103,6 @@ const ProfileScreen = ({ history }) => {
                 type="password"
                 value={confirmPassword}
                 onChange={(e) => setConfirmPassword(e.target.value)}
-                required
               />
               <span></span>
               <label>Nhập lại mật khẩu</label>

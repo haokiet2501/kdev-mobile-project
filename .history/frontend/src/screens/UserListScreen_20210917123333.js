@@ -22,7 +22,7 @@ const UserListScreen = ({ history, match }) => {
 
   useEffect(() => {
     if (userInfo && userInfo.isAdmin) {
-      dispatch(listUsers());
+      dispatch(listUsers("", pageNumber));
     } else {
       history.push("/login");
     }
@@ -99,6 +99,7 @@ const UserListScreen = ({ history, match }) => {
               ))}
             </tbody>
           </table>
+          <Paginate pages={pages} page={page} isAdmin={true} />
         </>
       )}
     </>

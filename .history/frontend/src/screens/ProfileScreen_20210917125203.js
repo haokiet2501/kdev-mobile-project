@@ -92,7 +92,7 @@ const ProfileScreen = ({ history }) => {
                 type="password"
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
-                required
+                re
               />
               <span></span>
               <label>Mật khẩu</label>
@@ -103,7 +103,6 @@ const ProfileScreen = ({ history }) => {
                 type="password"
                 value={confirmPassword}
                 onChange={(e) => setConfirmPassword(e.target.value)}
-                required
               />
               <span></span>
               <label>Nhập lại mật khẩu</label>

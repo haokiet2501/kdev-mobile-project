@@ -4,6 +4,7 @@ import "../css/ProfileScreen.css";
 import { useDispatch, useSelector } from "react-redux";
 import Message from "../components/Message";
 import Loader from "../components/Loader";
+import Paginate from "../components/Paginate";
 import { listUsers, deleteUser } from "../actions/userActions";
 
 const UserListScreen = ({ history, match }) => {
