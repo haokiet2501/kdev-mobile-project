@@ -4,6 +4,6 @@
 - Who: Le Vo Hoang Hao Kiet. 
 - Mssv: 3001190275. 
 - Class: CD19LW4.
--Deploy: https://kdev-mobile.herokuapp.com/
+- Deploy: https://kdev-mobile.herokuapp.com/
 
 Happy coding! 
